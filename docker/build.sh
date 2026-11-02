@@ -2,9 +2,9 @@
 
 if [ "$#" -eq 0 ] || [ "$#" -gt 3 ]
 then
-	echo "Usage: $0 domjudge-version <namespace>"
+	echo "Usage: $0 domjudge-version [namespace]"
 	echo "	For example: $0 5.3.0"
-	echo "	or: $0 5.3.0 otherNamespace"
+	echo "	or: $0 5.3.0 some-namespace"
 	exit 1
 fi
 
