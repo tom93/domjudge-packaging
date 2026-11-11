@@ -45,3 +45,4 @@ jobs:
           push: true
           tags: "domjudge/gitlabci:24.04"
           labels: ${{ steps.meta.outputs.labels }}
+

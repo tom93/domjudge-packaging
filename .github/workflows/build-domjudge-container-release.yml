@@ -98,3 +98,4 @@ jobs:
               docker push domjudge/$IMG
             fi
           done
+

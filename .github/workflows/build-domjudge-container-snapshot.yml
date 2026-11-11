@@ -57,3 +57,4 @@ jobs:
           for IMG in domserver judgehost; do
             docker push domjudge/$IMG:bleeding
           done
+
